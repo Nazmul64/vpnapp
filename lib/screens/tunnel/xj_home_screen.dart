@@ -17,14 +17,14 @@ import '../../widgets/modals/protocol_selection_modal.dart';
 import '../logs/xj_logs_tab.dart';
 import '../../widgets/drawer/xj_navigation_drawer.dart';
 
-class XjMainScreen extends StatefulWidget {
-  const XjMainScreen({super.key});
+class MkMainScreen extends StatefulWidget {
+  const MkMainScreen({super.key});
 
   @override
-  State<XjMainScreen> createState() => _XjMainScreenState();
+  State<MkMainScreen> createState() => _MkMainScreenState();
 }
 
-class _XjMainScreenState extends State<XjMainScreen> {
+class _MkMainScreenState extends State<MkMainScreen> {
   int _selectedTab = 0; // 0 for HOME, 1 for LOGS
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   bool _showConnectedBadge = false;
@@ -934,3 +934,7 @@ class _XjMainScreenState extends State<XjMainScreen> {
     );
   }
 }
+
+/// Backward compatibility aliases
+typedef XjMainScreen = MkMainScreen;
+typedef MkTunnelMainScreen = MkMainScreen;

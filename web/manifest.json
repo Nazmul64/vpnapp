@@ -1,6 +1,6 @@
 {
-    "name": "sensei_tunnel",
-    "short_name": "sensei_tunnel",
+    "name": "MK Tunnel VPN",
+    "short_name": "MK Tunnel",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

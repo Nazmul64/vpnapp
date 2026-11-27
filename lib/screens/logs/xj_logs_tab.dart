@@ -5,8 +5,8 @@ import '../../core/constants/app_colors.dart';
 import '../../models/log_entry.dart';
 import '../../providers/vpn_provider.dart';
 
-class XjLogsTab extends StatelessWidget {
-  const XjLogsTab({super.key});
+class MkLogsTab extends StatelessWidget {
+  const MkLogsTab({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -205,3 +205,7 @@ class XjLogsTab extends StatelessWidget {
     }
   }
 }
+
+/// Backward compatibility alias
+typedef XjLogsTab = MkLogsTab;
+typedef MkTunnelLogsTab = MkLogsTab;

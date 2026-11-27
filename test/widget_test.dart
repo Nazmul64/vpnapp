@@ -6,7 +6,7 @@ void main() {
   testWidgets('MK Tunnel VPN app smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const MkTunnelApp());
     await tester.pump();
-    expect(find.byType(XjMainScreen), findsOneWidget);
+    expect(find.byType(MkMainScreen), findsOneWidget);
     expect(find.text('MK Tunnel VPN'), findsOneWidget);
     expect(find.text('STOP'), findsOneWidget);
     expect(find.text('Config Version: 1.0.22'), findsOneWidget);

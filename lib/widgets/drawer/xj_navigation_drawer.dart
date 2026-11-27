@@ -6,8 +6,8 @@ import '../../providers/config_provider.dart';
 import '../common/xj_logo_widget.dart';
 import '../../screens/tools/drawer_tools_modals.dart';
 
-class XjNavigationDrawer extends StatelessWidget {
-  const XjNavigationDrawer({super.key});
+class MkNavigationDrawer extends StatelessWidget {
+  const MkNavigationDrawer({super.key});
 
   static Future<void> _launchExternalUrl(BuildContext context, String urlString) async {
     if (urlString.trim().isEmpty) return;
@@ -517,3 +517,7 @@ class XjNavigationDrawer extends StatelessWidget {
     );
   }
 }
+
+/// Backward compatibility alias
+typedef XjNavigationDrawer = MkNavigationDrawer;
+typedef MkTunnelNavigationDrawer = MkNavigationDrawer;

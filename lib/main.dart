@@ -40,7 +40,7 @@ class MkTunnelApp extends StatelessWidget {
         title: AppConstants.appName,
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme,
-        home: const XjMainScreen(),
+        home: const MkMainScreen(),
       ),
     );
   }
