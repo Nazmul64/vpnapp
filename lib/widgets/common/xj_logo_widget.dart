@@ -93,3 +93,7 @@ class XjLogoWidget extends StatelessWidget {
   }
 }
 
+/// Backward compatibility and clear naming alias
+typedef MkLogoWidget = XjLogoWidget;
+typedef MkTunnelLogoWidget = XjLogoWidget;
+

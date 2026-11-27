@@ -22,11 +22,11 @@ void main() {
     ),
   );
 
-  runApp(const XjTunnelApp());
+  runApp(const MkTunnelApp());
 }
 
-class XjTunnelApp extends StatelessWidget {
-  const XjTunnelApp({super.key});
+class MkTunnelApp extends StatelessWidget {
+  const MkTunnelApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -45,3 +45,6 @@ class XjTunnelApp extends StatelessWidget {
     );
   }
 }
+
+/// Backward compatibility alias
+typedef XjTunnelApp = MkTunnelApp;

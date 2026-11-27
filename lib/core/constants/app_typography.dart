@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 class AppTypography {
   AppTypography._();
 
-  // XJ Tunnel Screen Typography
+  // MK Tunnel Screen Typography
   static TextStyle get appBarTitle => GoogleFonts.roboto(
     fontSize: 20,
     fontWeight: FontWeight.w500,

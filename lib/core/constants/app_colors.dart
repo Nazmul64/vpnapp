@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  // Primary XJ Tunnel Green Theme
+  // Primary MK Tunnel Green Theme
   static const Color primaryGreen = Color(0xFF43A047);       // Material Green 600
   static const Color primaryGreenDark = Color(0xFF2E7D32);   // Material Green 800
   static const Color primaryGreenDeep = Color(0xFF1B5E20);   // Material Green 900

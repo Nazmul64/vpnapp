@@ -12,8 +12,8 @@ class VpnApiService {
   ];
 
   static String activeBaseUrl = candidateBaseUrls[0];
-  static String deviceHwid = 'XJ-982A-44B1-FE29-8802';
-  static String apiKey = 'xj_vpn_live_api_key_2026';
+  static String deviceHwid = 'MK-982A-44B1-FE29-8802';
+  static String apiKey = 'mk_vpn_live_api_key_2026';
 
   /// Set custom API host
   static void setBaseUrl(String url) {

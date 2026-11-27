@@ -1,13 +1,13 @@
-# 🛡️ XJ Tunnel VPN
+# 🛡️ MK Tunnel VPN
 
-An exact, 1:1 pixel-perfect reproduction of **XJ Tunnel VPN** (NoobDEV Build) built with Flutter 3. All screens, colors, typography, models, dialogs, drawers, and interactive behaviors have been implemented from A to Z to match the design.
+An exact, 1:1 pixel-perfect reproduction of **MK Tunnel VPN** built with Flutter 3. All screens, colors, typography, models, dialogs, drawers, and interactive behaviors have been implemented from A to Z to match the design.
 
 ---
 
 ## 📸 Implemented Screens & Features
 
-### 1. Main Home Screen (`XjHomeScreen`)
-- **Vivid Green App Bar** (`#43A047`) with Hamburger menu (`☰`), title **"XJ Tunnel VPN"**, Refresh/Sync button, Notification Bell, and 3-dots popup menu.
+### 1. Main Home Screen (`MkTunnelHomeScreen`)
+- **Vivid Green App Bar** (`#43A047`) with Hamburger menu (`☰`), title **"MK Tunnel VPN"**, Refresh/Sync button, Notification Bell, and 3-dots popup menu.
 - **Top Tab Bar**: `HOME` (active with bold text and green indicator bar) and `LOGS` (with instant tab switching).
 - **White Rounded Card**:
   - **Network & Live Traffic**: `NetWork: mobily [SA]`, live fluctuating upload (`↑ 24.29 KB`) and download (`↓ 52.18 KB`) with green circular badges.
@@ -16,7 +16,7 @@ An exact, 1:1 pixel-perfect reproduction of **XJ Tunnel VPN** (NoobDEV Build) bu
   - **Payload / Network Selector Box**: Mobily blue logo, `🇸🇦 KSA | Mobily FreeNet ❤️ ✈`, and `Working | Promo | 0 Credit`. Tapping opens the payload selection modal.
   - **Big Action Button**: Full-width stadium button with rich green gradient (`#43A047` to `#2E7D32`), bold white text `STOP` (or `START`), toggles connection state.
   - **Time Left & Add 2hrs Row**: Cyan/blue stopwatch icon with speed lines, `Time Left :` label, live countdown timer (`02h:22m:43s`), and `Add 2hrs` green pill button.
-- **Floating Toast Banner**: Rounded white card with drop shadow, circular XJ VPN logo, and `Connected Successfully 😍`.
+- **Floating Toast Banner**: Rounded white card with drop shadow, circular MK VPN logo, and `Connected Successfully 😍`.
 - **Footer**: `Config Version: 1.0.22`.
 - **Bottom Bar**: Solid green accent bar.
 
@@ -37,8 +37,8 @@ An exact, 1:1 pixel-perfect reproduction of **XJ Tunnel VPN** (NoobDEV Build) bu
   10. `🇸🇦 KSA All SIM Social Package ✈️`
   11. `🇪🇹 ETHO | Ethiotelecom Free-Net ❤️ ✈`
 
-### 3. Navigation Drawer (`XjNavigationDrawer`)
-- **Header**: Deep green gradient with glowing circular `XJ -VPN-` badge, `XJ Tunnel VPN` title, and `NoobDEV (Build)` subtitle.
+### 3. Navigation Drawer (`MkTunnelNavigationDrawer`)
+- **Header**: Deep green gradient with glowing circular `MK -VPN-` badge, `MK Tunnel VPN` title, and `Official Build` subtitle.
 - **Menu Items** (with green icons and interactive dialogs):
   - Custom Server
   - Theme Settings
@@ -57,7 +57,7 @@ An exact, 1:1 pixel-perfect reproduction of **XJ Tunnel VPN** (NoobDEV Build) bu
   - HWID (with copyable device identifier)
   - Export Config
 
-### 4. Live Logs View (`XjLogsTab`)
+### 4. Live Logs View (`MkTunnelLogsTab`)
 - Real-time connection events and handshake records with colored tags (`[CORE]`, `[PAYLOAD]`, `[ROUTE]`, `[OVPN]`, `[TUNNEL]`, `[REWARD]`).
 - Copy Logs and Clear Logs buttons.
 

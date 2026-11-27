@@ -440,7 +440,7 @@ class RedeemVoucherModal extends StatefulWidget {
 }
 
 class _RedeemVoucherModalState extends State<RedeemVoucherModal> {
-  final _controller = TextEditingController(text: 'XJ-VIP-2026');
+  final _controller = TextEditingController(text: 'MK-VIP-2026');
   bool _isLoading = false;
 
   Future<void> _redeem() async {
@@ -507,7 +507,7 @@ class _RedeemVoucherModalState extends State<RedeemVoucherModal> {
             controller: _controller,
             decoration: const InputDecoration(
               labelText: 'Voucher Code',
-              hintText: 'e.g. XJ-VIP-2026',
+              hintText: 'e.g. MK-VIP-2026',
               border: OutlineInputBorder(),
             ),
             textCapitalization: TextCapitalization.characters,
@@ -541,7 +541,7 @@ class HwidModal extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const hwid = 'XJ-982A-44B1-FE29-8802';
+    const hwid = 'MK-982A-44B1-FE29-8802';
 
     return AlertDialog(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
